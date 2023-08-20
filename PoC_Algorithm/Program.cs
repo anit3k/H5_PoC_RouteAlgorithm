@@ -13,7 +13,7 @@ var distancesGenerated = generator.GenerateDistances(assignmentsGenerated, 5400)
 
 Console.WriteLine("\n ****VERSION 2***** \n");
 
-RoutePlannerV2 planner2 = new RoutePlannerV2();
+RoutePlannerOriginal planner2 = new RoutePlannerOriginal();
 var optimalRoutes2 = planner2.FindOptimalRoutes(assignmentsGenerated, distancesGenerated, routeStartTime, routeEndTime);
 
 int linecounter = 1;

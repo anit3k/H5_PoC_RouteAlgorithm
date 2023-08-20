@@ -1,6 +1,11 @@
 ﻿namespace PoC_Algorithm
 {
-    public class RoutePlannerV2
+    /// <summary>
+    /// This is the original first version that actually worked as intended, DO NOT EDIT!
+    /// This should be used as the Prof of Concept on how we think it should work, made
+    /// with inspiration from Edger Dijkstra's shortest path trough a graph algorithm
+    /// </summary>
+    public class RoutePlannerOriginal
     {
         public List<List<Assignment>> FindOptimalRoutes(List<Assignment> allAssignments, List<DistanceTuple> distances, DateTime routeStartTime, DateTime routeEndTime)
         {
